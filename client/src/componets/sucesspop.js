@@ -11,7 +11,7 @@ function TodoList() {
   useEffect(() => {
     const fetchTodos = async () => {
       try {
-        const response = await fetch('http://localhost:3001/api/getitems');
+        const response = await fetch('http://localhost:3010/api/getitems');
         if (!response.ok) {
           throw new Error('Failed to fetch todos');
         }
@@ -110,7 +110,7 @@ function EditTodo({ todo, onCancel, onSuccess }) {
     e.preventDefault();
     try {
       const response = await axios.patch(
-        "http://localhost:3001/api/updatetask",
+        "http://localhost:3010/api/updatetask",
         editedTodo
       );
       console.log("Task updated successfully:", response.data);

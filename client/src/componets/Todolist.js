@@ -20,7 +20,7 @@ function Todo() {
     try {
       // Send a POST request to the server to add the task
       const response = await axios.post(
-        "http://localhost:3001/api/addtask",
+        "http://localhost:3010/api/addtask",
         newTask
       );
 
