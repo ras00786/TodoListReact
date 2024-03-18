@@ -1,0 +1,110 @@
+/* TodoList component styling */
+
+.todo-list-container {
+    margin: 20px auto;
+    width: 80%;
+  }
+  
+  .todo-list-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  button {
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: white;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button.delete {
+    background-color: #dc3545;
+  }
+  
+  button.delete:hover {
+    background-color: #c82333;
+  }
+  
+  /* CSS for edit top pop-up */
+.edit-popup {
+    position: fixed;
+    top: 50px; /* Adjust top position as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+  }
+  
+  .edit-popup h2 {
+    margin-top: 0;
+  }
+  
+  .edit-popup label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .edit-popup form {
+    text-align: start;
+  }
+  
+  .edit-popup input,
+  .edit-popup select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+  }
+  
+  .edit-popup-buttons {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .edit-popup-buttons button {
+    margin-left: 10px;
+    cursor: pointer;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
+  .edit-popup-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
