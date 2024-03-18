@@ -1,12 +1,13 @@
-# Commands
+# Full Stack Application
 
+## Commands
 ## Server
-* npm i
-* npm start
+* npm i - Install dependencies
+* npm start - Run the server
   
 ## Client
-* npm i
-* npm start
+* npm i - Install dependencies
+* npm start  - Run the server
 
 ## Features
 
